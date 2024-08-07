@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "mp3_converter", from = "src"}]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.9,<3.13"
 colorama = "^0.4.6"
 pydub = "^0.25.1"
 mutagen = "^1.47.0"

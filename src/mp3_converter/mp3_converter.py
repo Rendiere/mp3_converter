@@ -12,7 +12,7 @@ from colorama import Fore, Style, init
 # Initialize colorama
 init(autoreset=True)
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
 def print_colored(text, color, bold=False):

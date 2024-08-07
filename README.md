@@ -33,7 +33,7 @@ mp3_converter /path/to/your/audio/directory --remove
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.10+ & <3.13
 - ffmpeg (will be installed automatically by Homebrew)
 
 ## Contributing
