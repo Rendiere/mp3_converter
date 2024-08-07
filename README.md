@@ -7,6 +7,7 @@ A command-line tool to convert FLAC, AIFF, and WAV files to MP3 format.
 You can install MP3 Converter using Homebrew:
 
 ```
+brew tap Rendiere/mp3_converter
 brew install mp3_converter
 ```
 
