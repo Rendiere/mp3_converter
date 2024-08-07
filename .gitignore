@@ -1,0 +1,60 @@
+# Build artifacts
+build/
+dist/
+*.spec
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Test fixtures and logs
+# src/tests/fixtures/
+
+# Poetry lock file (uncomment if you want to ignore it)
+# poetry.lock
+
+# PyInstaller artifacts
+*.manifest
+*.spec
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+
+# Keep the sample files in the fixtures directory
+# !src/tests/fixtures/sample.aiff
+# !src/tests/fixtures/sample.flac
+# !src/tests/fixtures/sample.wav
+
+# Homebrew formula (you might want to track this in a separate repo)
+# mp3_converter.rb
